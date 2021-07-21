@@ -1,0 +1,4550 @@
+{
+  "version": 1,
+  "name": "Task 11 - CLMS Hotspot Monitoring Nomenclature",
+  "description": "Task 11 - test",
+  "proxyImages": true,
+  "defaultMap": "map-0YLSIFjC",
+  "defaultPerspective": null,
+  "attributeRelevance": {},
+  "attributes": [
+    {
+      "_id": "attr-H0jTPEPt",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Same",
+        "Opposite",
+        "+",
+        "-",
+        "++",
+        "+-",
+        "-+",
+        "--",
+        "Level2",
+        "Level3",
+        "Level4",
+        "Level5"
+      ],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-DqggDVxd",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-IFLTlwm6",
+      "name": "Doco",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-XHdYfdOm",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Level1",
+        "Level2",
+        "Level3",
+        "Level4",
+        "Level5"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-9aAawBGN",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-kjAXOLRf",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Reinforcing",
+        "Balancing",
+        "Vicious",
+        "Virtuous",
+        "Stabilizing",
+        "Stagnating"
+      ],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-KuOQf26e",
+      "name": "MAES",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Urban",
+        "Cropland",
+        "Woodland and forest",
+        "Grassland",
+        "Heathland and shrub",
+        "Sparsely vegetated land",
+        "Wetlands",
+        "Marine inlets and transitional waters",
+        "Rivers and lakes"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-f6z62DzT",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    }
+  ],
+  "elements": [
+    {
+      "_id": "elem-5V2yBrUg",
+      "attributes": {
+        "label": "1",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1 Urban",
+        "maes": "Urban",
+        "element type": "Level1"
+      }
+    },
+    {
+      "_id": "elem-4l6UMWcY",
+      "attributes": {
+        "label": "11",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.1 Urban fabric, industrial, commercial, public, military and private units",
+        "maes": "Urban",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-FvkDvglX",
+      "attributes": {
+        "label": "12",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.2 Transport infrastructure",
+        "maes": "Urban",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-MGodWWPn",
+      "attributes": {
+        "label": "13",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.3 Mineral extraction, dump and construction sites, land without current use",
+        "maes": "Urban",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-efJ5cSf6",
+      "attributes": {
+        "label": "111",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.1.1 Urban fabric (predominantly public and private units",
+        "maes": "Urban",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-XnSPbMmE",
+      "attributes": {
+        "label": "112",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.1.2 Industrial, commercial, public and military units",
+        "maes": "Urban",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-SsUdcwjl",
+      "attributes": {
+        "label": "121",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.2.1 Road networks and associated land",
+        "maes": "Urban",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-eRNlIxI3",
+      "attributes": {
+        "label": "122",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.2.2 Railways and associated land",
+        "maes": "Urban",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-7ZjzpQt9",
+      "attributes": {
+        "label": "123",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.2.3 Port areas and associated land",
+        "maes": "Urban",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-hs0f0iHP",
+      "attributes": {
+        "label": "124",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.2.4 Airports and associated land",
+        "maes": "Urban",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-Hj6lX9aG",
+      "attributes": {
+        "label": "131",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.3.1 Mineral extraction, dump and construction sites",
+        "maes": "Urban",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-Wpp2AlTH",
+      "attributes": {
+        "label": "132",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.3.2 Land without current use",
+        "maes": "Urban",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-ENHkmroE",
+      "attributes": {
+        "label": "1111",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.1.1.1 Continuous urban fabric (IMD ≥80%)",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-oBkQ9ONR",
+      "attributes": {
+        "label": "1112",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.1.1.2 Dense urban fabric (IMD ≥30-80%)",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-FWiryDlI",
+      "attributes": {
+        "label": "1113",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.1.1.3 Low density fabric (IMD <30%)",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-JiTY4bqu",
+      "attributes": {
+        "label": "1121",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.1.2.1 Industrial, commercial, public and military units (other)",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-fFco8Wxi",
+      "attributes": {
+        "label": "1122",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.1.2.2 Nuclear energy plants and associated land",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-irDx6lmX",
+      "attributes": {
+        "label": "1231",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.2.3.3 Cargo port",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-h57aciBC",
+      "attributes": {
+        "label": "1232",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.2.3.3 Passenger port",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-LfD7895O",
+      "attributes": {
+        "label": "1233",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.2.3.3 Fishing port",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-ekkxwntW",
+      "attributes": {
+        "label": "1234",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.2.3.4 Naval port",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-RHnr4wnC",
+      "attributes": {
+        "label": "1235",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.2.3.5 Marinas",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-lDrpO6LI",
+      "attributes": {
+        "label": "1236",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.2.3.6 Local multi-functional harbours",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-6xMEwIHR",
+      "attributes": {
+        "label": "1237",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.2.3.7 Shipyards",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-vRuGdGr2",
+      "attributes": {
+        "label": "1311",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.3.1.1 Mineral extraction sites",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-PemBBk8h",
+      "attributes": {
+        "label": "1312",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.3.1.2 Dump sites",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-G7gWUtpG",
+      "attributes": {
+        "label": "1313",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.3.1.3 Construction sites",
+        "maes": "Urban",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-aCfmgHKF",
+      "attributes": {
+        "label": "2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2 Cropland",
+        "maes": "Cropland",
+        "element type": "Level1"
+      }
+    },
+    {
+      "_id": "elem-ucfaliTK",
+      "attributes": {
+        "label": "21",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.1 Arable land",
+        "maes": "Cropland",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-R3sqx8wg",
+      "attributes": {
+        "label": "22",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.2 Permanent crops",
+        "maes": "Cropland",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-fv5RuzH1",
+      "attributes": {
+        "label": "23",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.3 Heterogeneous agricultural area",
+        "maes": "Cropland",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-UUWQealf",
+      "attributes": {
+        "label": "211",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.1.1 Arable irrigated and non-irrigated land",
+        "maes": "Cropland",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-o2jwksp6",
+      "attributes": {
+        "label": "212",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.1.2 Greenhouses",
+        "maes": "Cropland",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-DekG52Bv",
+      "attributes": {
+        "label": "221",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.2.1 Vineyards, fruit trees and berry plantations",
+        "maes": "Cropland",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-qssMl3Ky",
+      "attributes": {
+        "label": "222",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.2.2 Olive groves",
+        "maes": "Cropland",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-UQZiPTTE",
+      "attributes": {
+        "label": "231",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.3.1 Annual crops associated with permanent crops",
+        "maes": "Cropland",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-Y2zy1Owk",
+      "attributes": {
+        "label": "232",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.3.2 Complex cultivation patterns",
+        "maes": "Cropland",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-cH5FJfyI",
+      "attributes": {
+        "label": "233",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.3.3 Land principally occupied by agriculture with significant areas of natural vegetation",
+        "maes": "Cropland",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-Kfvcu7zf",
+      "attributes": {
+        "label": "234",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.3.4 Agro-forestry",
+        "maes": "Cropland",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-eYTDdlTY",
+      "attributes": {
+        "label": "311",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.1.1 Natural & semi-natural broadleaved forest",
+        "maes": "Woodland and forest",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-1T62t004",
+      "attributes": {
+        "label": "312",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.1.2 Highly artificial broadleaved plantations",
+        "maes": "Woodland and forest",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-vHj64wQN",
+      "attributes": {
+        "label": "321",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.2.1 Natural & semi-natural coniferous forest",
+        "maes": "Woodland and forest",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-qpW3exZT",
+      "attributes": {
+        "label": "322",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.2.2 Highly artificial coniferous plantations",
+        "maes": "Woodland and forest",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-XDyklrAq",
+      "attributes": {
+        "label": "331",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.3.1 Natural & semi-natural mixed forest",
+        "maes": "Woodland and forest",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-iLSppvnV",
+      "attributes": {
+        "label": "332",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.3.2 Highly artificial mixed plantations",
+        "maes": "Woodland and forest",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-VC7LW2MH",
+      "attributes": {
+        "label": "31",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.1 Broadleaved forest&nbsp;",
+        "maes": "Woodland and forest",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-I0ThW715",
+      "attributes": {
+        "label": "32",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.2 Coniferous forest",
+        "maes": "Woodland and forest",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-i4rVtofX",
+      "attributes": {
+        "label": "33",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.3 Mixed forest",
+        "maes": "Woodland and forest",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-JQyUdOP0",
+      "attributes": {
+        "label": "34",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.4 Transitional woodland and scrub",
+        "maes": "Woodland and forest",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-KIAMj92s",
+      "attributes": {
+        "label": "35",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.5 Lines of trees and scrub",
+        "maes": "Woodland and forest",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-tyg4RiRK",
+      "attributes": {
+        "label": "36",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.6 Damaged forest",
+        "maes": "Woodland and forest",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-z35eyOnc",
+      "attributes": {
+        "label": "3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3 Woodland and forest",
+        "maes": "Woodland and forest",
+        "element type": "Level1"
+      }
+    },
+    {
+      "_id": "elem-pwwHUWRV",
+      "attributes": {
+        "label": "4",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "4 Grassland",
+        "maes": "Grassland",
+        "element type": "Level1"
+      }
+    },
+    {
+      "_id": "elem-KvsKKrvR",
+      "attributes": {
+        "label": "41",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "4.1 Managed grassland",
+        "maes": "Grassland",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-ncY3HNVe",
+      "attributes": {
+        "label": "42",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "4.2 Natural & semi-natural grassland",
+        "maes": "Grassland",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-310S05pq",
+      "attributes": {
+        "label": "421",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "4.2.1 Semi-natural grassland",
+        "maes": "Grassland",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-Kh2oU46a",
+      "attributes": {
+        "label": "422",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "4.2.2 Alpine and sub-alpine natural grassland",
+        "maes": "Grassland",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-PXByUkce",
+      "attributes": {
+        "label": "4211",
+        "tags": [
+          "N2K"
+        ],
+        "description": "4.2.1.1 Semi-natural grassland with woody plants (C.C.D. ≥ 30&nbsp;%)",
+        "maes": "Grassland",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-6JLX9Wa3",
+      "attributes": {
+        "label": "4212",
+        "tags": [
+          "N2K"
+        ],
+        "description": "4.2.1.2 Semi-natural grassland without woody plants (C.C.D. < 30%)",
+        "maes": "Grassland",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-HxSQoTVk",
+      "attributes": {
+        "label": "5",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "5 Heathland and scrub&nbsp;",
+        "maes": "Heathland and shrub",
+        "element type": "Level1"
+      }
+    },
+    {
+      "_id": "elem-H2AtxfmH",
+      "attributes": {
+        "label": "51",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "5.1 Heathland and moorland",
+        "maes": "Heathland and shrub",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-8M67NFvV",
+      "attributes": {
+        "label": "52",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "5.2 Alpine scrub land",
+        "maes": "Heathland and shrub",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-zP2CGxIP",
+      "attributes": {
+        "label": "53",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "5.3 Sclerophyllous scrubs",
+        "maes": "Heathland and shrub",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-7RoLFWgM",
+      "attributes": {
+        "label": "6",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6 Open spaces with little or no vegetation",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level1"
+      }
+    },
+    {
+      "_id": "elem-sKzOPJ2n",
+      "attributes": {
+        "label": "61",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.1 Sparsely vegetated areas",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-i0EvSxQj",
+      "attributes": {
+        "label": "62",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.2 Beaches, dunes, river banks",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-21mTuuOq",
+      "attributes": {
+        "label": "63",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.3 Bare rocks, burnt areas, glaciers and perpetual snow",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-TmFCLpNp",
+      "attributes": {
+        "label": "611",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.1.1 Sparse vegetation on sands",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-JZ63Bb3v",
+      "attributes": {
+        "label": "612",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.1.2 Sparse vegetation on rocks",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-VfcFPZXH",
+      "attributes": {
+        "label": "621",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.2.1 Beaches and dunes",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-WUTUWGtX",
+      "attributes": {
+        "label": "6211",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.2.1.1 Beaches",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-CX8SOObL",
+      "attributes": {
+        "label": "6212",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.2.1.2 Dunes",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-DuCFUP6b",
+      "attributes": {
+        "label": "62111",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.2.1.1.1 Sandy beaches",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level5"
+      }
+    },
+    {
+      "_id": "elem-xpDTR4vk",
+      "attributes": {
+        "label": "62112",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.2.1.1.2 Shingle beaches",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level5"
+      }
+    },
+    {
+      "_id": "elem-gnlaIy4M",
+      "attributes": {
+        "label": "622",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.2.2 River banks",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-ftHhMC6r",
+      "attributes": {
+        "label": "631",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.3.1 Bare rocks, outcrops, cliffs",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-bSx3idzy",
+      "attributes": {
+        "label": "6311",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.3.1.1 Bare rocks and outcrops",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-qTNPB852",
+      "attributes": {
+        "label": "6312",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.3.1.2 Coastal cliffs",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-sSANUKdS",
+      "attributes": {
+        "label": "632",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.3.2 Burnt areas (except burnt forest)",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-0CRWGJKD",
+      "attributes": {
+        "label": "633",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.3.3 Glaciers and perpetual snow",
+        "maes": "Sparsely vegetated land",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-vNWaJIMV",
+      "attributes": {
+        "label": "711",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.1.1 Inland marshes",
+        "maes": "Wetlands",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-2BRqAIFw",
+      "attributes": {
+        "label": "7",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7 Wetland",
+        "maes": "Wetlands",
+        "element type": "Level1"
+      }
+    },
+    {
+      "_id": "elem-a7XBI3kK",
+      "attributes": {
+        "label": "712",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.1.2 Peat bogs",
+        "maes": "Wetlands",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-Da7WpbK9",
+      "attributes": {
+        "label": "71",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.1 Inland wetlands",
+        "maes": "Wetlands",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-6Ao8zjHS",
+      "attributes": {
+        "label": "72",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.2 Coastal wetlands",
+        "maes": "Marine inlets and transitional waters",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-b2VH5Ecb",
+      "attributes": {
+        "label": "721",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.2.1 Salt marshes",
+        "maes": "Marine inlets and transitional waters",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-DhaEMute",
+      "attributes": {
+        "label": "722",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.2.2 Salines",
+        "maes": "Marine inlets and transitional waters",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-PHUHlEJG",
+      "attributes": {
+        "label": "723",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.2.3 Intertidal flats",
+        "maes": "Marine inlets and transitional waters",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-ImdA5vP3",
+      "attributes": {
+        "label": "7121",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.1.2.1 Exploited peat bogs",
+        "maes": "Wetlands",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-VzTa9wV8",
+      "attributes": {
+        "label": "7122",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.1.2.2 Unexploited peat bogs",
+        "maes": "Wetlands",
+        "element type": "Level4"
+      }
+    },
+    {
+      "_id": "elem-xZu1MHl5",
+      "attributes": {
+        "label": "8",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8 Water",
+        "maes": "Rivers and lakes",
+        "element type": "Level1"
+      }
+    },
+    {
+      "_id": "elem-rjgDnau3",
+      "attributes": {
+        "label": "81",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.1 Water courses",
+        "maes": "Rivers and lakes",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-ME76o3YB",
+      "attributes": {
+        "label": "82",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.2 Lakes and reservoirs",
+        "maes": "Rivers and lakes",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-mlr9mBzP",
+      "attributes": {
+        "label": "83",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.3 Transitional waters",
+        "maes": "Rivers and lakes",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-bHnSmiHY",
+      "attributes": {
+        "label": "84",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.4 Sea and ocean",
+        "maes": "Rivers and lakes",
+        "element type": "Level2"
+      }
+    },
+    {
+      "_id": "elem-Qn3cS6ip",
+      "attributes": {
+        "label": "811",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.1.1 Natural & semi-natural water courses",
+        "maes": "Rivers and lakes",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-j5CTUTWa",
+      "attributes": {
+        "label": "812",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.1.2 Highly modified water courses and canals",
+        "maes": "Rivers and lakes",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-569cnTWi",
+      "attributes": {
+        "label": "813",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.1.3 Seasonally connected water courses (oxbows)",
+        "maes": "Rivers and lakes",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-MN4U7SlS",
+      "attributes": {
+        "label": "821",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.2.1 Natural lakes",
+        "maes": "Rivers and lakes",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-6OFKDqGR",
+      "attributes": {
+        "label": "822",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.2.2 Reservoirs",
+        "maes": "Rivers and lakes",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-KNaJ0NRA",
+      "attributes": {
+        "label": "823",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.2.3 Aquaculture ponds",
+        "maes": "Rivers and lakes",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-nqOrPGaR",
+      "attributes": {
+        "label": "824",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.2.4 Standing water bodies of extractive industrial sites",
+        "maes": "Rivers and lakes",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-tZmkWr93",
+      "attributes": {
+        "label": "831",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.3.1 Lagoons",
+        "maes": "Rivers and lakes",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-PUTmRpFk",
+      "attributes": {
+        "label": "832",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.3.2 Estuaries",
+        "maes": "Rivers and lakes",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-Pb6zNsTW",
+      "attributes": {
+        "label": "833",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.3.3 Marine inlets and fjords",
+        "maes": "Rivers and lakes",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-IO7JqD63",
+      "attributes": {
+        "label": "841",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.4.1 Open sea",
+        "maes": "Rivers and lakes",
+        "element type": "Level3"
+      }
+    },
+    {
+      "_id": "elem-Bay0KMSo",
+      "attributes": {
+        "label": "842",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.4.2 Coastal waters",
+        "maes": "Rivers and lakes",
+        "element type": "Level3"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-HswmhRPd",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.1 Urban fabric, industrial, commercial, public, military and private units",
+        "maes": "Urban",
+        "connection type": "Level2"
+      },
+      "from": "elem-5V2yBrUg",
+      "to": "elem-4l6UMWcY"
+    },
+    {
+      "_id": "conn-IRzOeAFk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.2 Transport infrastructure",
+        "maes": "Urban",
+        "connection type": "Level2"
+      },
+      "from": "elem-5V2yBrUg",
+      "to": "elem-FvkDvglX"
+    },
+    {
+      "_id": "conn-bOcAwhYS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.3 Mineral extraction, dump and construction sites, land without current use",
+        "maes": "Urban",
+        "connection type": "Level2"
+      },
+      "from": "elem-5V2yBrUg",
+      "to": "elem-MGodWWPn"
+    },
+    {
+      "_id": "conn-YP24j6og",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.1.1 Urban fabric (predominantly public and private units",
+        "maes": "Urban",
+        "connection type": "Level3"
+      },
+      "from": "elem-4l6UMWcY",
+      "to": "elem-efJ5cSf6"
+    },
+    {
+      "_id": "conn-SmkSz4EK",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.1.2 Industrial, commercial, public and military units",
+        "maes": "Urban",
+        "connection type": "Level3"
+      },
+      "from": "elem-4l6UMWcY",
+      "to": "elem-XnSPbMmE"
+    },
+    {
+      "_id": "conn-aof7KlJi",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.2.1 Road networks and associated land",
+        "maes": "Urban",
+        "connection type": "Level3"
+      },
+      "from": "elem-FvkDvglX",
+      "to": "elem-SsUdcwjl"
+    },
+    {
+      "_id": "conn-uojMUrJb",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.2.2 Railways and associated land",
+        "maes": "Urban",
+        "connection type": "Level3"
+      },
+      "from": "elem-FvkDvglX",
+      "to": "elem-eRNlIxI3"
+    },
+    {
+      "_id": "conn-SoYbmOY8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.2.3 Port areas and associated land",
+        "maes": "Urban",
+        "connection type": "Level3"
+      },
+      "from": "elem-FvkDvglX",
+      "to": "elem-7ZjzpQt9"
+    },
+    {
+      "_id": "conn-970YCJzj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.2.4 Airports and associated land",
+        "maes": "Urban",
+        "connection type": "Level3"
+      },
+      "from": "elem-FvkDvglX",
+      "to": "elem-hs0f0iHP"
+    },
+    {
+      "_id": "conn-LPbDUG13",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.3.1 Mineral extraction, dump and construction sites",
+        "maes": "Urban",
+        "connection type": "Level3"
+      },
+      "from": "elem-MGodWWPn",
+      "to": "elem-Hj6lX9aG"
+    },
+    {
+      "_id": "conn-5jnlV6iD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "1.3.2 Land without current use",
+        "maes": "Urban",
+        "connection type": "Level3"
+      },
+      "from": "elem-MGodWWPn",
+      "to": "elem-Wpp2AlTH"
+    },
+    {
+      "_id": "conn-IjJlpOZl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.1.1.1 Continuous urban fabric (IMD ≥80%)",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-efJ5cSf6",
+      "to": "elem-ENHkmroE"
+    },
+    {
+      "_id": "conn-0G0TYmjl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.1.1.2 Dense urban fabric (IMD ≥30-80%)",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-efJ5cSf6",
+      "to": "elem-oBkQ9ONR"
+    },
+    {
+      "_id": "conn-vl4ZRp9y",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.1.1.3 Low density fabric (IMD <30%)",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-efJ5cSf6",
+      "to": "elem-FWiryDlI"
+    },
+    {
+      "_id": "conn-y5TmuIUO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.1.2.1 Industrial, commercial, public and military units (other)",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-XnSPbMmE",
+      "to": "elem-JiTY4bqu"
+    },
+    {
+      "_id": "conn-BEL5Lp1J",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.1.2.2 Nuclear energy plants and associated land",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-XnSPbMmE",
+      "to": "elem-fFco8Wxi"
+    },
+    {
+      "_id": "conn-UfE8B6Y3",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.2.3.3 Cargo port",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-7ZjzpQt9",
+      "to": "elem-irDx6lmX"
+    },
+    {
+      "_id": "conn-9jC0ReCs",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.2.3.3 Passenger port",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-7ZjzpQt9",
+      "to": "elem-h57aciBC"
+    },
+    {
+      "_id": "conn-EYbyulqA",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.2.3.3 Fishing port",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-7ZjzpQt9",
+      "to": "elem-LfD7895O"
+    },
+    {
+      "_id": "conn-DxFZZ1SE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.2.3.4 Naval port",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-7ZjzpQt9",
+      "to": "elem-ekkxwntW"
+    },
+    {
+      "_id": "conn-FymqqbiC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.2.3.5 Marinas",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-7ZjzpQt9",
+      "to": "elem-RHnr4wnC"
+    },
+    {
+      "_id": "conn-LJabArUy",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.2.3.6 Local multi-functional harbours",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-7ZjzpQt9",
+      "to": "elem-lDrpO6LI"
+    },
+    {
+      "_id": "conn-S1r7D5Hy",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.2.3.7 Shipyards",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-7ZjzpQt9",
+      "to": "elem-6xMEwIHR"
+    },
+    {
+      "_id": "conn-4jmzPxJr",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.3.1.1 Mineral extraction sites",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-Hj6lX9aG",
+      "to": "elem-vRuGdGr2"
+    },
+    {
+      "_id": "conn-7ruBZrfH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.3.1.2 Dump sites",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-Hj6lX9aG",
+      "to": "elem-PemBBk8h"
+    },
+    {
+      "_id": "conn-JoBjLO2X",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "1.3.1.3 Construction sites",
+        "maes": "Urban",
+        "connection type": "Level4"
+      },
+      "from": "elem-Hj6lX9aG",
+      "to": "elem-G7gWUtpG"
+    },
+    {
+      "_id": "conn-pgDuXIhC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.1 Arable land",
+        "maes": "Cropland",
+        "connection type": "Level2"
+      },
+      "from": "elem-aCfmgHKF",
+      "to": "elem-ucfaliTK"
+    },
+    {
+      "_id": "conn-x2v8OBXM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.2 Permanent crops",
+        "maes": "Cropland",
+        "connection type": "Level2"
+      },
+      "from": "elem-aCfmgHKF",
+      "to": "elem-R3sqx8wg"
+    },
+    {
+      "_id": "conn-xf6JJ6NM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.3 Heterogeneous agricultural area",
+        "maes": "Cropland",
+        "connection type": "Level2"
+      },
+      "from": "elem-aCfmgHKF",
+      "to": "elem-fv5RuzH1"
+    },
+    {
+      "_id": "conn-zalx0Dl8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.1.1 Arable irrigated and non-irrigated land",
+        "maes": "Cropland",
+        "connection type": "Level3"
+      },
+      "from": "elem-ucfaliTK",
+      "to": "elem-UUWQealf"
+    },
+    {
+      "_id": "conn-0LhdMLJN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.1.2 Greenhouses",
+        "maes": "Cropland",
+        "connection type": "Level3"
+      },
+      "from": "elem-ucfaliTK",
+      "to": "elem-o2jwksp6"
+    },
+    {
+      "_id": "conn-F5D4Mi0Z",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.2.1 Vineyards, fruit trees and berry plantations",
+        "maes": "Cropland",
+        "connection type": "Level3"
+      },
+      "from": "elem-R3sqx8wg",
+      "to": "elem-DekG52Bv"
+    },
+    {
+      "_id": "conn-hh37EWnQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.2.2 Olive groves",
+        "maes": "Cropland",
+        "connection type": "Level3"
+      },
+      "from": "elem-R3sqx8wg",
+      "to": "elem-qssMl3Ky"
+    },
+    {
+      "_id": "conn-X5URFWb5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.3.1 Annual crops associated with permanent crops",
+        "maes": "Cropland",
+        "connection type": "Level3"
+      },
+      "from": "elem-fv5RuzH1",
+      "to": "elem-UQZiPTTE"
+    },
+    {
+      "_id": "conn-Arje2aAA",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.3.2 Complex cultivation patterns",
+        "maes": "Cropland",
+        "connection type": "Level3"
+      },
+      "from": "elem-fv5RuzH1",
+      "to": "elem-Y2zy1Owk"
+    },
+    {
+      "_id": "conn-UhO7Sm8b",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.3.3 Land principally occupied by agriculture with significant areas of natural vegetation",
+        "maes": "Cropland",
+        "connection type": "Level3"
+      },
+      "from": "elem-fv5RuzH1",
+      "to": "elem-cH5FJfyI"
+    },
+    {
+      "_id": "conn-l6Sn6MHP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "2.3.4 Agro-forestry",
+        "maes": "Cropland",
+        "connection type": "Level3"
+      },
+      "from": "elem-fv5RuzH1",
+      "to": "elem-Kfvcu7zf"
+    },
+    {
+      "_id": "conn-55ezEFAC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.1.1 Natural & semi-natural broadleaved forest",
+        "maes": "Woodland and forest",
+        "connection type": "Level3"
+      },
+      "from": "elem-VC7LW2MH",
+      "to": "elem-eYTDdlTY"
+    },
+    {
+      "_id": "conn-7bDoAW3L",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.1.2 Highly artificial broadleaved plantations",
+        "maes": "Woodland and forest",
+        "connection type": "Level3"
+      },
+      "from": "elem-VC7LW2MH",
+      "to": "elem-1T62t004"
+    },
+    {
+      "_id": "conn-IP8Volq6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.2.1 Natural & semi-natural coniferous forest",
+        "maes": "Woodland and forest",
+        "connection type": "Level3"
+      },
+      "from": "elem-I0ThW715",
+      "to": "elem-vHj64wQN"
+    },
+    {
+      "_id": "conn-qZwkqYLU",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.2.2 Highly artificial coniferous plantations",
+        "maes": "Woodland and forest",
+        "connection type": "Level3"
+      },
+      "from": "elem-I0ThW715",
+      "to": "elem-qpW3exZT"
+    },
+    {
+      "_id": "conn-xAOEWWHi",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.3.1 Natural & semi-natural mixed forest",
+        "maes": "Woodland and forest",
+        "connection type": "Level3"
+      },
+      "from": "elem-i4rVtofX",
+      "to": "elem-XDyklrAq"
+    },
+    {
+      "_id": "conn-dqfTXxtR",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.3.2 Highly artificial mixed plantations",
+        "maes": "Woodland and forest",
+        "connection type": "Level3"
+      },
+      "from": "elem-i4rVtofX",
+      "to": "elem-iLSppvnV"
+    },
+    {
+      "_id": "conn-h6OFGVUm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.1 Broadleaved forest&nbsp;",
+        "maes": "Woodland and forest",
+        "connection type": "Level2"
+      },
+      "from": "elem-z35eyOnc",
+      "to": "elem-VC7LW2MH"
+    },
+    {
+      "_id": "conn-Zym10RyV",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.2 Coniferous forest",
+        "maes": "Woodland and forest",
+        "connection type": "Level2"
+      },
+      "from": "elem-z35eyOnc",
+      "to": "elem-I0ThW715"
+    },
+    {
+      "_id": "conn-y2teLB3D",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.3 Mixed forest",
+        "maes": "Woodland and forest",
+        "connection type": "Level2"
+      },
+      "from": "elem-z35eyOnc",
+      "to": "elem-i4rVtofX"
+    },
+    {
+      "_id": "conn-Zh5mhiyz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.4 Transitional woodland and scrub",
+        "maes": "Woodland and forest",
+        "connection type": "Level2"
+      },
+      "from": "elem-z35eyOnc",
+      "to": "elem-JQyUdOP0"
+    },
+    {
+      "_id": "conn-TfNQIEy6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.5 Lines of trees and scrub",
+        "maes": "Woodland and forest",
+        "connection type": "Level2"
+      },
+      "from": "elem-z35eyOnc",
+      "to": "elem-KIAMj92s"
+    },
+    {
+      "_id": "conn-pkfbb5hm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "3.6 Damaged forest",
+        "maes": "Woodland and forest",
+        "connection type": "Level2"
+      },
+      "from": "elem-z35eyOnc",
+      "to": "elem-tyg4RiRK"
+    },
+    {
+      "_id": "conn-aDjh9pbH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "4.1 Managed grassland",
+        "maes": "Grassland",
+        "connection type": "Level2"
+      },
+      "from": "elem-pwwHUWRV",
+      "to": "elem-KvsKKrvR"
+    },
+    {
+      "_id": "conn-i0hquWvj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "4.2 Natural & semi-natural grassland",
+        "maes": "Grassland",
+        "connection type": "Level2"
+      },
+      "from": "elem-pwwHUWRV",
+      "to": "elem-ncY3HNVe"
+    },
+    {
+      "_id": "conn-PwIJIswR",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "4.2.1 Semi-natural grassland",
+        "maes": "Grassland",
+        "connection type": "Level3"
+      },
+      "from": "elem-ncY3HNVe",
+      "to": "elem-310S05pq"
+    },
+    {
+      "_id": "conn-mGXhKiul",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "4.2.2 Alpine and sub-alpine natural grassland",
+        "maes": "Grassland",
+        "connection type": "Level3"
+      },
+      "from": "elem-ncY3HNVe",
+      "to": "elem-Kh2oU46a"
+    },
+    {
+      "_id": "conn-bJmYrSBv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "N2K"
+        ],
+        "description": "4.2.1.1 Semi-natural grassland with woody plants (C.C.D. ≥ 30&nbsp;%)",
+        "maes": "Grassland",
+        "connection type": "Level4"
+      },
+      "from": "elem-310S05pq",
+      "to": "elem-PXByUkce"
+    },
+    {
+      "_id": "conn-Sm4hAJpM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "N2K"
+        ],
+        "description": "4.2.1.2 Semi-natural grassland without woody plants (C.C.D. < 30%)",
+        "maes": "Grassland",
+        "connection type": "Level4"
+      },
+      "from": "elem-310S05pq",
+      "to": "elem-6JLX9Wa3"
+    },
+    {
+      "_id": "conn-8LGkzm4u",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "5.1 Heathland and moorland",
+        "maes": "Heathland and shrub",
+        "connection type": "Level2"
+      },
+      "from": "elem-HxSQoTVk",
+      "to": "elem-H2AtxfmH"
+    },
+    {
+      "_id": "conn-Zyn3Z0uW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "5.2 Alpine scrub land",
+        "maes": "Heathland and shrub",
+        "connection type": "Level2"
+      },
+      "from": "elem-HxSQoTVk",
+      "to": "elem-8M67NFvV"
+    },
+    {
+      "_id": "conn-PbIkQlq0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "5.3 Sclerophyllous scrubs",
+        "maes": "Heathland and shrub",
+        "connection type": "Level2"
+      },
+      "from": "elem-HxSQoTVk",
+      "to": "elem-zP2CGxIP"
+    },
+    {
+      "_id": "conn-N867GyVQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.1 Sparsely vegetated areas",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level2"
+      },
+      "from": "elem-7RoLFWgM",
+      "to": "elem-sKzOPJ2n"
+    },
+    {
+      "_id": "conn-VTiO1lEQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.2 Beaches, dunes, river banks",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level2"
+      },
+      "from": "elem-7RoLFWgM",
+      "to": "elem-i0EvSxQj"
+    },
+    {
+      "_id": "conn-zn8lSKZD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.3 Bare rocks, burnt areas, glaciers and perpetual snow",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level2"
+      },
+      "from": "elem-7RoLFWgM",
+      "to": "elem-21mTuuOq"
+    },
+    {
+      "_id": "conn-TKCcV35E",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.1.1 Sparse vegetation on sands",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level3"
+      },
+      "from": "elem-sKzOPJ2n",
+      "to": "elem-TmFCLpNp"
+    },
+    {
+      "_id": "conn-oJyOcDDl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.1.2 Sparse vegetation on rocks",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level3"
+      },
+      "from": "elem-sKzOPJ2n",
+      "to": "elem-JZ63Bb3v"
+    },
+    {
+      "_id": "conn-WqYYHc0o",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.2.1 Beaches and dunes",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level3"
+      },
+      "from": "elem-i0EvSxQj",
+      "to": "elem-VfcFPZXH"
+    },
+    {
+      "_id": "conn-PL7gwvif",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.2.1.1 Beaches",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level4"
+      },
+      "from": "elem-VfcFPZXH",
+      "to": "elem-WUTUWGtX"
+    },
+    {
+      "_id": "conn-1ypHBNQZ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.2.1.2 Dunes",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level4"
+      },
+      "from": "elem-VfcFPZXH",
+      "to": "elem-CX8SOObL"
+    },
+    {
+      "_id": "conn-QFBVJN6I",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level5",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.2.1.1.1 Sandy beaches",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level5"
+      },
+      "from": "elem-WUTUWGtX",
+      "to": "elem-DuCFUP6b"
+    },
+    {
+      "_id": "conn-K14JGw7g",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level5",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.2.1.1.2 Shingle beaches",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level5"
+      },
+      "from": "elem-WUTUWGtX",
+      "to": "elem-xpDTR4vk"
+    },
+    {
+      "_id": "conn-sGCcQ9uP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.2.2 River banks",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level3"
+      },
+      "from": "elem-i0EvSxQj",
+      "to": "elem-gnlaIy4M"
+    },
+    {
+      "_id": "conn-dXOlz4i3",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.3.1 Bare rocks, outcrops, cliffs",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level3"
+      },
+      "from": "elem-21mTuuOq",
+      "to": "elem-ftHhMC6r"
+    },
+    {
+      "_id": "conn-YZHhIu7h",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.3.1.1 Bare rocks and outcrops",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level4"
+      },
+      "from": "elem-ftHhMC6r",
+      "to": "elem-bSx3idzy"
+    },
+    {
+      "_id": "conn-WzjiT3D5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ"
+        ],
+        "description": "6.3.1.2 Coastal cliffs",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level4"
+      },
+      "from": "elem-ftHhMC6r",
+      "to": "elem-qTNPB852"
+    },
+    {
+      "_id": "conn-AKaHDBW7",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.3.2 Burnt areas (except burnt forest)",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level3"
+      },
+      "from": "elem-21mTuuOq",
+      "to": "elem-sSANUKdS"
+    },
+    {
+      "_id": "conn-HG2sZzF3",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "6.3.3 Glaciers and perpetual snow",
+        "maes": "Sparsely vegetated land",
+        "connection type": "Level3"
+      },
+      "from": "elem-21mTuuOq",
+      "to": "elem-0CRWGJKD"
+    },
+    {
+      "_id": "conn-iHffUSjY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.1.1 Inland marshes",
+        "maes": "Wetlands",
+        "connection type": "Level3"
+      },
+      "from": "elem-Da7WpbK9",
+      "to": "elem-vNWaJIMV"
+    },
+    {
+      "_id": "conn-Ok9Evf1q",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.1.2 Peat bogs",
+        "maes": "Wetlands",
+        "connection type": "Level3"
+      },
+      "from": "elem-Da7WpbK9",
+      "to": "elem-a7XBI3kK"
+    },
+    {
+      "_id": "conn-wErMdgcQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.1 Inland wetlands",
+        "maes": "Wetlands",
+        "connection type": "Level2"
+      },
+      "from": "elem-2BRqAIFw",
+      "to": "elem-Da7WpbK9"
+    },
+    {
+      "_id": "conn-VdXrCMBu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.2 Coastal wetlands",
+        "maes": "Marine inlets and transitional waters",
+        "connection type": "Level2"
+      },
+      "from": "elem-2BRqAIFw",
+      "to": "elem-6Ao8zjHS"
+    },
+    {
+      "_id": "conn-qdpbneQE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.2.1 Salt marshes",
+        "maes": "Marine inlets and transitional waters",
+        "connection type": "Level3"
+      },
+      "from": "elem-6Ao8zjHS",
+      "to": "elem-b2VH5Ecb"
+    },
+    {
+      "_id": "conn-W4rjnTYj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.2.2 Salines",
+        "maes": "Marine inlets and transitional waters",
+        "connection type": "Level3"
+      },
+      "from": "elem-6Ao8zjHS",
+      "to": "elem-DhaEMute"
+    },
+    {
+      "_id": "conn-Y1Pfjkzm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.2.3 Intertidal flats",
+        "maes": "Marine inlets and transitional waters",
+        "connection type": "Level3"
+      },
+      "from": "elem-6Ao8zjHS",
+      "to": "elem-PHUHlEJG"
+    },
+    {
+      "_id": "conn-RyxDOV9C",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.1.2.1 Exploited peat bogs",
+        "maes": "Wetlands",
+        "connection type": "Level4"
+      },
+      "from": "elem-a7XBI3kK",
+      "to": "elem-ImdA5vP3"
+    },
+    {
+      "_id": "conn-J24ZSmIm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level4",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "7.1.2.2 Unexploited peat bogs",
+        "maes": "Wetlands",
+        "connection type": "Level4"
+      },
+      "from": "elem-a7XBI3kK",
+      "to": "elem-VzTa9wV8"
+    },
+    {
+      "_id": "conn-TZLk57Hq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.1 Water courses",
+        "maes": "Rivers and lakes",
+        "connection type": "Level2"
+      },
+      "from": "elem-xZu1MHl5",
+      "to": "elem-rjgDnau3"
+    },
+    {
+      "_id": "conn-CckIqqYP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.2 Lakes and reservoirs",
+        "maes": "Rivers and lakes",
+        "connection type": "Level2"
+      },
+      "from": "elem-xZu1MHl5",
+      "to": "elem-ME76o3YB"
+    },
+    {
+      "_id": "conn-eHPg1fHT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.3 Transitional waters",
+        "maes": "Rivers and lakes",
+        "connection type": "Level2"
+      },
+      "from": "elem-xZu1MHl5",
+      "to": "elem-mlr9mBzP"
+    },
+    {
+      "_id": "conn-w1SwDNmI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level2",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.4 Sea and ocean",
+        "maes": "Rivers and lakes",
+        "connection type": "Level2"
+      },
+      "from": "elem-xZu1MHl5",
+      "to": "elem-bHnSmiHY"
+    },
+    {
+      "_id": "conn-SNQOeDaM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.1.1 Natural & semi-natural water courses",
+        "maes": "Rivers and lakes",
+        "connection type": "Level3"
+      },
+      "from": "elem-rjgDnau3",
+      "to": "elem-Qn3cS6ip"
+    },
+    {
+      "_id": "conn-NQzDyDbY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.1.2 Highly modified water courses and canals",
+        "maes": "Rivers and lakes",
+        "connection type": "Level3"
+      },
+      "from": "elem-rjgDnau3",
+      "to": "elem-j5CTUTWa"
+    },
+    {
+      "_id": "conn-rWddxZEm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.1.3 Seasonally connected water courses (oxbows)",
+        "maes": "Rivers and lakes",
+        "connection type": "Level3"
+      },
+      "from": "elem-rjgDnau3",
+      "to": "elem-569cnTWi"
+    },
+    {
+      "_id": "conn-3fpCAaJe",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.2.1 Natural lakes",
+        "maes": "Rivers and lakes",
+        "connection type": "Level3"
+      },
+      "from": "elem-ME76o3YB",
+      "to": "elem-MN4U7SlS"
+    },
+    {
+      "_id": "conn-OFl9mA8g",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.2.2 Reservoirs",
+        "maes": "Rivers and lakes",
+        "connection type": "Level3"
+      },
+      "from": "elem-ME76o3YB",
+      "to": "elem-6OFKDqGR"
+    },
+    {
+      "_id": "conn-UcUcRJ03",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.2.3 Aquaculture ponds",
+        "maes": "Rivers and lakes",
+        "connection type": "Level3"
+      },
+      "from": "elem-ME76o3YB",
+      "to": "elem-KNaJ0NRA"
+    },
+    {
+      "_id": "conn-6NkGeZJn",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.2.4 Standing water bodies of extractive industrial sites",
+        "maes": "Rivers and lakes",
+        "connection type": "Level3"
+      },
+      "from": "elem-ME76o3YB",
+      "to": "elem-nqOrPGaR"
+    },
+    {
+      "_id": "conn-eZBY0twa",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.3.1 Lagoons",
+        "maes": "Rivers and lakes",
+        "connection type": "Level3"
+      },
+      "from": "elem-mlr9mBzP",
+      "to": "elem-tZmkWr93"
+    },
+    {
+      "_id": "conn-pT8wx78S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.3.2 Estuaries",
+        "maes": "Rivers and lakes",
+        "connection type": "Level3"
+      },
+      "from": "elem-mlr9mBzP",
+      "to": "elem-PUTmRpFk"
+    },
+    {
+      "_id": "conn-6KAkCzNK",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.3.3 Marine inlets and fjords",
+        "maes": "Rivers and lakes",
+        "connection type": "Level3"
+      },
+      "from": "elem-mlr9mBzP",
+      "to": "elem-Pb6zNsTW"
+    },
+    {
+      "_id": "conn-LYruXzr9",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.4.1 Open sea",
+        "maes": "Rivers and lakes",
+        "connection type": "Level3"
+      },
+      "from": "elem-bHnSmiHY",
+      "to": "elem-IO7JqD63"
+    },
+    {
+      "_id": "conn-NsbLtJCr",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "Level3",
+        "tags": [
+          "CZ",
+          "N2K"
+        ],
+        "description": "8.4.2 Coastal waters",
+        "maes": "Rivers and lakes",
+        "connection type": "Level3"
+      },
+      "from": "elem-bHnSmiHY",
+      "to": "elem-Bay0KMSo"
+    }
+  ],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-0YLSIFjC",
+      "name": "Untitled map",
+      "description": "**CLMS Hotspot Monitoring Nomenclature**\nConcept testbed",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-EVqM6gXp",
+      "defaultElementBehavior": "fixed",
+      "defaultConnectionDirection": "directed",
+      "elements": [
+        {
+          "_id": "node-du5bs9mH",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-5V2yBrUg"
+        },
+        {
+          "_id": "node-BAcwZVqB",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-4l6UMWcY"
+        },
+        {
+          "_id": "node-cEKeqKwH",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-FvkDvglX"
+        },
+        {
+          "_id": "node-hDeFyTnF",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-MGodWWPn"
+        },
+        {
+          "_id": "node-BFdEzDYe",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-efJ5cSf6"
+        },
+        {
+          "_id": "node-Q46wgZY0",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-XnSPbMmE"
+        },
+        {
+          "_id": "node-5H5y079P",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-SsUdcwjl"
+        },
+        {
+          "_id": "node-Q5g7Kan0",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-eRNlIxI3"
+        },
+        {
+          "_id": "node-RGxRPcje",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-7ZjzpQt9"
+        },
+        {
+          "_id": "node-ftTKuP16",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-hs0f0iHP"
+        },
+        {
+          "_id": "node-j3UNQq2Z",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Hj6lX9aG"
+        },
+        {
+          "_id": "node-mK9nGFXc",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Wpp2AlTH"
+        },
+        {
+          "_id": "node-7iTH3Fj7",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ENHkmroE"
+        },
+        {
+          "_id": "node-ALCmIWVG",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-oBkQ9ONR"
+        },
+        {
+          "_id": "node-b1T9Ek1x",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-FWiryDlI"
+        },
+        {
+          "_id": "node-pQ0BaCay",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-JiTY4bqu"
+        },
+        {
+          "_id": "node-vpImPF9f",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-fFco8Wxi"
+        },
+        {
+          "_id": "node-Sy6COxXG",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-irDx6lmX"
+        },
+        {
+          "_id": "node-8OHcVWFw",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-h57aciBC"
+        },
+        {
+          "_id": "node-F2wzLwtZ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-LfD7895O"
+        },
+        {
+          "_id": "node-OUFwntzs",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ekkxwntW"
+        },
+        {
+          "_id": "node-7bT7ZqWM",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-RHnr4wnC"
+        },
+        {
+          "_id": "node-NnwGoWMb",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-lDrpO6LI"
+        },
+        {
+          "_id": "node-eaMZK0xz",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-6xMEwIHR"
+        },
+        {
+          "_id": "node-rh1QNVcC",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-vRuGdGr2"
+        },
+        {
+          "_id": "node-C5hQmmup",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PemBBk8h"
+        },
+        {
+          "_id": "node-K5ZNpy5q",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-G7gWUtpG"
+        },
+        {
+          "_id": "node-y83XBM98",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-aCfmgHKF"
+        },
+        {
+          "_id": "node-8lfWV8Ly",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ucfaliTK"
+        },
+        {
+          "_id": "node-ETbu8Tku",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-R3sqx8wg"
+        },
+        {
+          "_id": "node-lDe2L8WD",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-fv5RuzH1"
+        },
+        {
+          "_id": "node-RnNuXwqV",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-UUWQealf"
+        },
+        {
+          "_id": "node-3r2OHga3",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-o2jwksp6"
+        },
+        {
+          "_id": "node-92ItHnIk",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-DekG52Bv"
+        },
+        {
+          "_id": "node-vRyxC1QY",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-qssMl3Ky"
+        },
+        {
+          "_id": "node-KF4GqHAQ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-UQZiPTTE"
+        },
+        {
+          "_id": "node-lZk5aNyK",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Y2zy1Owk"
+        },
+        {
+          "_id": "node-3l7mYsQQ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-cH5FJfyI"
+        },
+        {
+          "_id": "node-q6tzxpGc",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Kfvcu7zf"
+        },
+        {
+          "_id": "node-QT2c6QsH",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-eYTDdlTY"
+        },
+        {
+          "_id": "node-v7dlgcv0",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-1T62t004"
+        },
+        {
+          "_id": "node-721EgwoE",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-vHj64wQN"
+        },
+        {
+          "_id": "node-4jrhhc1c",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-qpW3exZT"
+        },
+        {
+          "_id": "node-ZddK6bV7",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-XDyklrAq"
+        },
+        {
+          "_id": "node-3AmFHu6N",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-iLSppvnV"
+        },
+        {
+          "_id": "node-mWOQgMDj",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-VC7LW2MH"
+        },
+        {
+          "_id": "node-lzACQq50",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-I0ThW715"
+        },
+        {
+          "_id": "node-oZsiK92s",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-i4rVtofX"
+        },
+        {
+          "_id": "node-AIZXJl4K",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-JQyUdOP0"
+        },
+        {
+          "_id": "node-RLcpbVdk",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-KIAMj92s"
+        },
+        {
+          "_id": "node-qTzVYxhR",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-tyg4RiRK"
+        },
+        {
+          "_id": "node-neIo4WtQ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-z35eyOnc"
+        },
+        {
+          "_id": "node-WMlPzmR1",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-pwwHUWRV"
+        },
+        {
+          "_id": "node-WkEgktmR",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-KvsKKrvR"
+        },
+        {
+          "_id": "node-Ua2IC6rk",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ncY3HNVe"
+        },
+        {
+          "_id": "node-M1C9oAva",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-310S05pq"
+        },
+        {
+          "_id": "node-h5Fgg6p2",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Kh2oU46a"
+        },
+        {
+          "_id": "node-YiA9Jgo8",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PXByUkce"
+        },
+        {
+          "_id": "node-6FqXMSLZ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-6JLX9Wa3"
+        },
+        {
+          "_id": "node-PZprf8Ke",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-HxSQoTVk"
+        },
+        {
+          "_id": "node-L2NJMdsp",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-H2AtxfmH"
+        },
+        {
+          "_id": "node-Al8xD0k5",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-8M67NFvV"
+        },
+        {
+          "_id": "node-c1E8kWs1",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-zP2CGxIP"
+        },
+        {
+          "_id": "node-9hdZXJj1",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-7RoLFWgM"
+        },
+        {
+          "_id": "node-IRI75PA7",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-sKzOPJ2n"
+        },
+        {
+          "_id": "node-xvHhmxKp",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-i0EvSxQj"
+        },
+        {
+          "_id": "node-8oDRlGZ7",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-21mTuuOq"
+        },
+        {
+          "_id": "node-XBHypXIz",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-TmFCLpNp"
+        },
+        {
+          "_id": "node-JrBa4loS",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-JZ63Bb3v"
+        },
+        {
+          "_id": "node-0S5H8D62",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-VfcFPZXH"
+        },
+        {
+          "_id": "node-r6fOqmMH",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-WUTUWGtX"
+        },
+        {
+          "_id": "node-wPS39UGJ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-CX8SOObL"
+        },
+        {
+          "_id": "node-fZcp19ma",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-DuCFUP6b"
+        },
+        {
+          "_id": "node-GTWvyrch",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-xpDTR4vk"
+        },
+        {
+          "_id": "node-SEwPmUJ3",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-gnlaIy4M"
+        },
+        {
+          "_id": "node-yOWq88DW",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ftHhMC6r"
+        },
+        {
+          "_id": "node-RUGUvzyU",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-bSx3idzy"
+        },
+        {
+          "_id": "node-Vf2gUKIY",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-qTNPB852"
+        },
+        {
+          "_id": "node-uMKoxtny",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-sSANUKdS"
+        },
+        {
+          "_id": "node-c13ouyPV",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-0CRWGJKD"
+        },
+        {
+          "_id": "node-1twzLwLq",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-vNWaJIMV"
+        },
+        {
+          "_id": "node-CX3A4tXW",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-2BRqAIFw"
+        },
+        {
+          "_id": "node-2kKf9zKI",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-a7XBI3kK"
+        },
+        {
+          "_id": "node-UnlEz699",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Da7WpbK9"
+        },
+        {
+          "_id": "node-QRfTqJaS",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-6Ao8zjHS"
+        },
+        {
+          "_id": "node-H5ErT1aV",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-b2VH5Ecb"
+        },
+        {
+          "_id": "node-Rx2VOvgb",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-DhaEMute"
+        },
+        {
+          "_id": "node-tW8ZfSwZ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PHUHlEJG"
+        },
+        {
+          "_id": "node-zqXDs7aX",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ImdA5vP3"
+        },
+        {
+          "_id": "node-VvcZ782J",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-VzTa9wV8"
+        },
+        {
+          "_id": "node-i6HZa4i6",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-xZu1MHl5"
+        },
+        {
+          "_id": "node-wWAodqDU",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-rjgDnau3"
+        },
+        {
+          "_id": "node-7Joy7Ckn",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ME76o3YB"
+        },
+        {
+          "_id": "node-OG6DbO5x",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-mlr9mBzP"
+        },
+        {
+          "_id": "node-piAUzOSl",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-bHnSmiHY"
+        },
+        {
+          "_id": "node-XKwUz8ed",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Qn3cS6ip"
+        },
+        {
+          "_id": "node-ItzS40de",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-j5CTUTWa"
+        },
+        {
+          "_id": "node-VCXTUYtg",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-569cnTWi"
+        },
+        {
+          "_id": "node-AhKHMRyI",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-MN4U7SlS"
+        },
+        {
+          "_id": "node-8gAyxPQo",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-6OFKDqGR"
+        },
+        {
+          "_id": "node-FkkEa67q",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-KNaJ0NRA"
+        },
+        {
+          "_id": "node-snHm7xgn",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-nqOrPGaR"
+        },
+        {
+          "_id": "node-hXLvXmFV",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-tZmkWr93"
+        },
+        {
+          "_id": "node-Gk8iohtb",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PUTmRpFk"
+        },
+        {
+          "_id": "node-vlJPwynC",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Pb6zNsTW"
+        },
+        {
+          "_id": "node-2sipSfJR",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-IO7JqD63"
+        },
+        {
+          "_id": "node-ehkek2Wm",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Bay0KMSo"
+        }
+      ],
+      "connections": [
+        {
+          "_id": "edge-MjPYicIK",
+          "style": {},
+          "connection": "conn-HswmhRPd"
+        },
+        {
+          "_id": "edge-gUrGoiZA",
+          "style": {},
+          "connection": "conn-IRzOeAFk"
+        },
+        {
+          "_id": "edge-5nOMtUP5",
+          "style": {},
+          "connection": "conn-bOcAwhYS"
+        },
+        {
+          "_id": "edge-GKOIkZZk",
+          "style": {},
+          "connection": "conn-YP24j6og"
+        },
+        {
+          "_id": "edge-PomSrn3t",
+          "style": {},
+          "connection": "conn-SmkSz4EK"
+        },
+        {
+          "_id": "edge-q4it1508",
+          "style": {},
+          "connection": "conn-aof7KlJi"
+        },
+        {
+          "_id": "edge-hn2Scs8X",
+          "style": {},
+          "connection": "conn-uojMUrJb"
+        },
+        {
+          "_id": "edge-dCr2CwnR",
+          "style": {},
+          "connection": "conn-SoYbmOY8"
+        },
+        {
+          "_id": "edge-X7SE6Ayx",
+          "style": {},
+          "connection": "conn-970YCJzj"
+        },
+        {
+          "_id": "edge-ABBGptox",
+          "style": {},
+          "connection": "conn-LPbDUG13"
+        },
+        {
+          "_id": "edge-fMi5KQ3A",
+          "style": {},
+          "connection": "conn-5jnlV6iD"
+        },
+        {
+          "_id": "edge-vY5raKmx",
+          "style": {},
+          "connection": "conn-IjJlpOZl"
+        },
+        {
+          "_id": "edge-X1gr1zK8",
+          "style": {},
+          "connection": "conn-0G0TYmjl"
+        },
+        {
+          "_id": "edge-iFPmVtA0",
+          "style": {},
+          "connection": "conn-vl4ZRp9y"
+        },
+        {
+          "_id": "edge-1ophzawr",
+          "style": {},
+          "connection": "conn-y5TmuIUO"
+        },
+        {
+          "_id": "edge-sv9OG2sI",
+          "style": {},
+          "connection": "conn-BEL5Lp1J"
+        },
+        {
+          "_id": "edge-eq3WqcSM",
+          "style": {},
+          "connection": "conn-UfE8B6Y3"
+        },
+        {
+          "_id": "edge-M8oh3Xo6",
+          "style": {},
+          "connection": "conn-9jC0ReCs"
+        },
+        {
+          "_id": "edge-LT1Mp8Oe",
+          "style": {},
+          "connection": "conn-EYbyulqA"
+        },
+        {
+          "_id": "edge-zFX8nWq4",
+          "style": {},
+          "connection": "conn-DxFZZ1SE"
+        },
+        {
+          "_id": "edge-J241hoMC",
+          "style": {},
+          "connection": "conn-FymqqbiC"
+        },
+        {
+          "_id": "edge-JcbItIjr",
+          "style": {},
+          "connection": "conn-LJabArUy"
+        },
+        {
+          "_id": "edge-BtBiSTLN",
+          "style": {},
+          "connection": "conn-S1r7D5Hy"
+        },
+        {
+          "_id": "edge-UenM8YQi",
+          "style": {},
+          "connection": "conn-4jmzPxJr"
+        },
+        {
+          "_id": "edge-jppiay7x",
+          "style": {},
+          "connection": "conn-7ruBZrfH"
+        },
+        {
+          "_id": "edge-JPCIkKpW",
+          "style": {},
+          "connection": "conn-JoBjLO2X"
+        },
+        {
+          "_id": "edge-dVoOVJUR",
+          "style": {},
+          "connection": "conn-pgDuXIhC"
+        },
+        {
+          "_id": "edge-oUPCrEI4",
+          "style": {},
+          "connection": "conn-x2v8OBXM"
+        },
+        {
+          "_id": "edge-wU5INxuc",
+          "style": {},
+          "connection": "conn-xf6JJ6NM"
+        },
+        {
+          "_id": "edge-schSzoCz",
+          "style": {},
+          "connection": "conn-zalx0Dl8"
+        },
+        {
+          "_id": "edge-nydkKOAi",
+          "style": {},
+          "connection": "conn-0LhdMLJN"
+        },
+        {
+          "_id": "edge-K3w6HfPX",
+          "style": {},
+          "connection": "conn-F5D4Mi0Z"
+        },
+        {
+          "_id": "edge-J4BoXpvq",
+          "style": {},
+          "connection": "conn-hh37EWnQ"
+        },
+        {
+          "_id": "edge-aOQzvdeW",
+          "style": {},
+          "connection": "conn-X5URFWb5"
+        },
+        {
+          "_id": "edge-BHN7L7x7",
+          "style": {},
+          "connection": "conn-Arje2aAA"
+        },
+        {
+          "_id": "edge-SBqMoC8Q",
+          "style": {},
+          "connection": "conn-UhO7Sm8b"
+        },
+        {
+          "_id": "edge-XZfKICVq",
+          "style": {},
+          "connection": "conn-l6Sn6MHP"
+        },
+        {
+          "_id": "edge-yYTX4Uj7",
+          "style": {},
+          "connection": "conn-55ezEFAC"
+        },
+        {
+          "_id": "edge-hbRdhLD7",
+          "style": {},
+          "connection": "conn-7bDoAW3L"
+        },
+        {
+          "_id": "edge-FCCDOmBr",
+          "style": {},
+          "connection": "conn-IP8Volq6"
+        },
+        {
+          "_id": "edge-NFr8TiTH",
+          "style": {},
+          "connection": "conn-qZwkqYLU"
+        },
+        {
+          "_id": "edge-wUSO3Io5",
+          "style": {},
+          "connection": "conn-xAOEWWHi"
+        },
+        {
+          "_id": "edge-RR8NiPWP",
+          "style": {},
+          "connection": "conn-dqfTXxtR"
+        },
+        {
+          "_id": "edge-ENyKYUH6",
+          "style": {},
+          "connection": "conn-h6OFGVUm"
+        },
+        {
+          "_id": "edge-btBg0Owe",
+          "style": {},
+          "connection": "conn-Zym10RyV"
+        },
+        {
+          "_id": "edge-EfQHUe40",
+          "style": {},
+          "connection": "conn-y2teLB3D"
+        },
+        {
+          "_id": "edge-UGbhDoRm",
+          "style": {},
+          "connection": "conn-Zh5mhiyz"
+        },
+        {
+          "_id": "edge-sfYZGo78",
+          "style": {},
+          "connection": "conn-TfNQIEy6"
+        },
+        {
+          "_id": "edge-izH87LPf",
+          "style": {},
+          "connection": "conn-pkfbb5hm"
+        },
+        {
+          "_id": "edge-afCYzm36",
+          "style": {},
+          "connection": "conn-aDjh9pbH"
+        },
+        {
+          "_id": "edge-2qvIohcC",
+          "style": {},
+          "connection": "conn-i0hquWvj"
+        },
+        {
+          "_id": "edge-oWTTRKws",
+          "style": {},
+          "connection": "conn-PwIJIswR"
+        },
+        {
+          "_id": "edge-QOKrV9th",
+          "style": {},
+          "connection": "conn-mGXhKiul"
+        },
+        {
+          "_id": "edge-4PW1YotI",
+          "style": {},
+          "connection": "conn-bJmYrSBv"
+        },
+        {
+          "_id": "edge-tBYqMl68",
+          "style": {},
+          "connection": "conn-Sm4hAJpM"
+        },
+        {
+          "_id": "edge-ZQwHo59P",
+          "style": {},
+          "connection": "conn-8LGkzm4u"
+        },
+        {
+          "_id": "edge-f8r1D3TB",
+          "style": {},
+          "connection": "conn-Zyn3Z0uW"
+        },
+        {
+          "_id": "edge-qAtPKvAq",
+          "style": {},
+          "connection": "conn-PbIkQlq0"
+        },
+        {
+          "_id": "edge-KLXAlgIV",
+          "style": {},
+          "connection": "conn-N867GyVQ"
+        },
+        {
+          "_id": "edge-PnWynSYW",
+          "style": {},
+          "connection": "conn-VTiO1lEQ"
+        },
+        {
+          "_id": "edge-qCVIbkkr",
+          "style": {},
+          "connection": "conn-zn8lSKZD"
+        },
+        {
+          "_id": "edge-MmgqaKws",
+          "style": {},
+          "connection": "conn-TKCcV35E"
+        },
+        {
+          "_id": "edge-BKZewJwH",
+          "style": {},
+          "connection": "conn-oJyOcDDl"
+        },
+        {
+          "_id": "edge-aN8g9CSc",
+          "style": {},
+          "connection": "conn-WqYYHc0o"
+        },
+        {
+          "_id": "edge-N4spOS2A",
+          "style": {},
+          "connection": "conn-PL7gwvif"
+        },
+        {
+          "_id": "edge-H7rSxBHK",
+          "style": {},
+          "connection": "conn-1ypHBNQZ"
+        },
+        {
+          "_id": "edge-W2TybxIF",
+          "style": {},
+          "connection": "conn-QFBVJN6I"
+        },
+        {
+          "_id": "edge-9gTdBSXw",
+          "style": {},
+          "connection": "conn-K14JGw7g"
+        },
+        {
+          "_id": "edge-GVgWFzi3",
+          "style": {},
+          "connection": "conn-sGCcQ9uP"
+        },
+        {
+          "_id": "edge-oJaL4Q1F",
+          "style": {},
+          "connection": "conn-dXOlz4i3"
+        },
+        {
+          "_id": "edge-VpH649ML",
+          "style": {},
+          "connection": "conn-YZHhIu7h"
+        },
+        {
+          "_id": "edge-jCVTxK26",
+          "style": {},
+          "connection": "conn-WzjiT3D5"
+        },
+        {
+          "_id": "edge-lWsVyc29",
+          "style": {},
+          "connection": "conn-AKaHDBW7"
+        },
+        {
+          "_id": "edge-y6rXaJhG",
+          "style": {},
+          "connection": "conn-HG2sZzF3"
+        },
+        {
+          "_id": "edge-eBQWOWZ2",
+          "style": {},
+          "connection": "conn-iHffUSjY"
+        },
+        {
+          "_id": "edge-dqeuTaNa",
+          "style": {},
+          "connection": "conn-Ok9Evf1q"
+        },
+        {
+          "_id": "edge-e0nhmUPK",
+          "style": {},
+          "connection": "conn-wErMdgcQ"
+        },
+        {
+          "_id": "edge-zfHZTCYX",
+          "style": {},
+          "connection": "conn-VdXrCMBu"
+        },
+        {
+          "_id": "edge-hssqzGb3",
+          "style": {},
+          "connection": "conn-qdpbneQE"
+        },
+        {
+          "_id": "edge-padcsSh8",
+          "style": {},
+          "connection": "conn-W4rjnTYj"
+        },
+        {
+          "_id": "edge-k7Ro3GCX",
+          "style": {},
+          "connection": "conn-Y1Pfjkzm"
+        },
+        {
+          "_id": "edge-jw79v5ct",
+          "style": {},
+          "connection": "conn-RyxDOV9C"
+        },
+        {
+          "_id": "edge-8GjLDVJH",
+          "style": {},
+          "connection": "conn-J24ZSmIm"
+        },
+        {
+          "_id": "edge-7AMG9gOH",
+          "style": {},
+          "connection": "conn-TZLk57Hq"
+        },
+        {
+          "_id": "edge-u3sfLel9",
+          "style": {},
+          "connection": "conn-CckIqqYP"
+        },
+        {
+          "_id": "edge-Ttpg6GwD",
+          "style": {},
+          "connection": "conn-eHPg1fHT"
+        },
+        {
+          "_id": "edge-HfDzu23K",
+          "style": {},
+          "connection": "conn-w1SwDNmI"
+        },
+        {
+          "_id": "edge-AxRlQvUS",
+          "style": {},
+          "connection": "conn-SNQOeDaM"
+        },
+        {
+          "_id": "edge-xoAfYaOZ",
+          "style": {},
+          "connection": "conn-NQzDyDbY"
+        },
+        {
+          "_id": "edge-AdArmFiE",
+          "style": {},
+          "connection": "conn-rWddxZEm"
+        },
+        {
+          "_id": "edge-UyvV0dve",
+          "style": {},
+          "connection": "conn-3fpCAaJe"
+        },
+        {
+          "_id": "edge-9XCWFzHP",
+          "style": {},
+          "connection": "conn-OFl9mA8g"
+        },
+        {
+          "_id": "edge-nSqxXa6l",
+          "style": {},
+          "connection": "conn-UcUcRJ03"
+        },
+        {
+          "_id": "edge-qZx2q7NA",
+          "style": {},
+          "connection": "conn-6NkGeZJn"
+        },
+        {
+          "_id": "edge-at6iSBAS",
+          "style": {},
+          "connection": "conn-eZBY0twa"
+        },
+        {
+          "_id": "edge-CRG7Hp8S",
+          "style": {},
+          "connection": "conn-pT8wx78S"
+        },
+        {
+          "_id": "edge-dLtw2C0C",
+          "style": {},
+          "connection": "conn-6KAkCzNK"
+        },
+        {
+          "_id": "edge-w7jOQQuO",
+          "style": {},
+          "connection": "conn-LYruXzr9"
+        },
+        {
+          "_id": "edge-ljN3jItE",
+          "style": {},
+          "connection": "conn-NsbLtJCr"
+        }
+      ],
+      "loops": []
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-EVqM6gXp",
+      "name": "Untitled view",
+      "style": "@settings {\n  template: systems;\n  theme: light;\n  element-color: categorize(\"MAES\", paired);\n}\n\n"
+    }
+  ]
+}
